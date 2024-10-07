@@ -84,26 +84,20 @@ header {
     color: #fff;
     text-decoration: none;
     padding: 10px 40px;
+    margin: 0.5rem;
     background: #551212;
     border-radius: 10px;
     border: 2px solid #551212;
     font-weight: 500;
-    transition: .3s;
+    transition: 0.3s;
 }
-.btn-group a:hover:nth-child(1) {
-    color: #551212;
-    background: transparent;
-}
-.btn-group a:nth-child(2) {
-    color: #551212;
-    background: transparent;
-    margin-left: 30px;
-    padding: 10px 30px;
-}
-.btn-group a:hover:nth-child(2) {
+
+.btn-group a:hover {
     color: #fff;
-    background: #551212;
+    background: transparent; 
+    transition: 0.3s;
 }
+
 .social-icons {
     position: absolute;
     bottom: 50px;
